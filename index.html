@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <title>yuen-結縁-</title>
 </head>
 
@@ -15,7 +16,22 @@
         <div>
           <div class="menu-btn"></div>
         </div>
-        <a href="#">MENU</a>
+        <div class="menu-icon" id="js_menu-icon">
+          <div class="menu-icon--line"></div>
+          <div class="menu-icon--line"></div>
+          <div class="menu-icon--line"></div>
+        </div>
+        <a href="#" class="menu-a" id="menu-btn">MENU</a>
+        <div class="menu-bg menu-view" id="menu-list">
+          <ul class="menu-list">
+            <li><a href="" class="menu-list--txt">ABOUT</a></li>
+            <li><a href="" class="menu-list--txt">CASE</a></li>
+            <li><a href="" class="menu-list--txt">ARTISIANS</a></li>
+            <li><a href="" class="menu-list--txt">STORIES AND INFO</a></li>
+            <li><a href="" class="menu-list--txt">CONTACT</a></li>
+            <li><a href="" class="menu-list--img"><img src="img/icon-fb.svg" alt=""></a></li>
+          </ul>
+        </div>
       </div>
       <div class="lang">
         <a href="#" class="lang-en">EN</a>
@@ -158,5 +174,6 @@
       Copyright © 2020 yuen All rights reserved.
     </div>
   </footer>
+  <script src="javascript.js"></script>
 </body>
 </html>
