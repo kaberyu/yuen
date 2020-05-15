@@ -1,0 +1,19 @@
+<svg id="hero-scroll.svg" xmlns="http://www.w3.org/2000/svg" width="32" height="90" viewBox="0 0 32 90">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-opacity: 0;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="border" class="cls-1" x="15.5" width="2" height="90"/>
+  <path id="_" data-name="▼" class="cls-2" d="M388,795l-15-12h30Z" transform="translate(-372 -751)"/>
+</svg>
